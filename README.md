@@ -1,5 +1,7 @@
 #SNBANK PROGRAM
+
 ####Getting Started with Banking System with FileSystem
+
 *This program is used to perform basic banking system operation.*
 
 *The below are the respective level of operations that can be performed on this program.*
