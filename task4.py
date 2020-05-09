@@ -26,9 +26,9 @@ while running_state:
             # open the file for staff's credentials
         staff_credentials = open("staff.txt", "r").readlines()
         first_user = staff_credentials[0].split(",")[0]
-        first_user_password = staff_credentials[0].split(",")[1]
+        first_user_password = staff_credentials[0].split(",")[1].strip()
         second_user = staff_credentials[1].split(",")[0]
-        second_user_password = staff_credentials[1].split(",")[1]
+        second_user_password = staff_credentials[1].split(",")[1].strip()
 
         if user_command == 1:  # Staff Login
             username = input("Type in your username: ")
@@ -36,8 +36,8 @@ while running_state:
 
             # keep prompting for the username and password, until user enters a correct credential
             # check in side staff.txt for the staff login credential
-            while (username != first_user and password != first_user_password) \
-                    and (username != second_user and password != second_user_password):
+            while (username != first_user or password != first_user_password) \
+                    and (username != second_user or password != second_user_password):
                 print("Username or password is incorrect, try again")
                 username = input("Type in your username: ")
                 password = input("Type in your password: ")
