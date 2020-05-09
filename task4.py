@@ -162,3 +162,5 @@ while running_state:
         else:
             print("Only number 1 or 2 is allowed, try again please...")
             invalid_input = True
+
+
