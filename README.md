@@ -1,6 +1,6 @@
-# SNBANK PROGRAM
+# SNBANK PROGRAM or APPLICATION
 
-#### Getting Started with Banking System with FileSystem
+#### Getting Started with Banking System with Python FileSystem
 
 *This program is used to perform basic banking system operation.*
 
