@@ -1,6 +1,6 @@
-#SNBANK PROGRAM
+# SNBANK PROGRAM
 
-####Getting Started with Banking System with FileSystem
+#### Getting Started with Banking System with FileSystem
 
 *This program is used to perform basic banking system operation.*
 
