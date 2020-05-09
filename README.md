@@ -24,7 +24,7 @@
 
 
 
-**Note:** *This program checks the **staff.txt** file for acceptable two users and their passwords while **customer.txt** file is used to store every new created bank accounts, this same file is checked to fetch the complete data of a user whose account number is provided. And **task4.py** is the main program file.*
+**Note:** *This program checks the **staff.txt** file for acceptable two users and their passwords while **customer.txt** file is used to store every new created bank accounts, this same file is checked to fetch the complete data of a user whose account number is provided. Also **task4.py** is the main program file. And finally, for each operation - **login**, **view account detail**, a file, named **user_session_log.txt** is created and used to log all the mentioned operations, along with the username of the staff that made them. The file contents can only be read or viewed before a **logout** command is made because logout will remove the log file, as that is the instruction from the algorithm of this program.*
 
 
 
