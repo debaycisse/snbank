@@ -24,7 +24,7 @@
 
 
 
-**Note:** *This program checks the **staff.txt** file for acceptable two users and their passwords while **customer.txt** file is used to store every new created bank accounts, this same file is checked to fetch the complete data of a user whose account number is provided.*
+**Note:** *This program checks the **staff.txt** file for acceptable two users and their passwords while **customer.txt** file is used to store every new created bank accounts, this same file is checked to fetch the complete data of a user whose account number is provided. And **task4.py** is the main program file.*
 
 
 
